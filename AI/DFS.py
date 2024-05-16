@@ -10,8 +10,8 @@ graph = {
 #DFS Graph
 
 def dfs (graph,start,goal):
-    stack=[[start]]
     visited=[]
+    stack=[[start]]
     while stack :
         path=stack.pop()
         node=path[-1]
