@@ -11,8 +11,8 @@ graph = {
 #BFS Graph
 
 def bfs (graph,start,goal):
-    queue=[[start]]
     visited=[]
+    queue=[[start]]
     while queue :
         path=queue.pop(0)
         node=path[-1]
